@@ -92,6 +92,10 @@ streamlit run streamlit_app.py
 
 ## 👩‍💻 Developed By
 
+**Rinika**
 **Bhanusri Dasoju**
+**Purna Harini**
+**Priyanka Shrivastav**
+
 
 Machine Learning Project using Python & Streamlit.
