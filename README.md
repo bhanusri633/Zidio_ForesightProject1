@@ -92,9 +92,9 @@ streamlit run streamlit_app.py
 
 ## 👩‍💻 Developed By
 
-**Rinika**n/
-**Bhanusri Dasoju**n/
-**Purna Harini**n/
+**Rinika**  
+**Bhanusri Dasoju**  
+**Purna Harini**  
 **Priyanka Shrivastav**
 
 
