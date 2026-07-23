@@ -80,6 +80,28 @@ streamlit run streamlit_app.py
 
 ---
 
+## 📸 Dashboard Preview
+
+### 🏠 Dashboard Home
+![Dashboard Home](screenshots/dashboard_home.png)
+
+---
+
+### 📈 Sales Prediction
+![Prediction Result](screenshots/prediction_result.png)
+
+---
+
+### 📊 Sales Analytics
+![Sales Analytics](screenshots/analytics_charts_1.png)
+
+---
+
+### 🌍 Product & Country Analysis
+![Product & Country Analysis](screenshots/analytics_charts_2.png)
+
+---
+
 ## 🔮 Future Improvements
 
 - Deep Learning Models
@@ -99,3 +121,4 @@ streamlit run streamlit_app.py
 
 
 Machine Learning Project using Python & Streamlit.
+
