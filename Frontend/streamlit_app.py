@@ -17,10 +17,6 @@ model = joblib.load("Backend/sales_forecast_model.pkl")
 # Load Dataset
 data = pd.read_csv("Data/cleaned_retail_data.csv")
 
-# Description
-st.write("Predict future sales using Machine Learning and explore historical sales trends.!")
-
-st.divider()
 # Sidebar
 st.sidebar.title("📋 Project Information")
 st.sidebar.write("""
@@ -40,6 +36,11 @@ Online Retail Dataset (UCI)
 
 # Title
 st.title("📊 Sales Forecasting Dashboard")
+
+# Description
+st.write("Predict future sales using Machine Learning and explore historical sales trends.!")
+
+st.divider()
 
 # Dashboard KPIs
 
