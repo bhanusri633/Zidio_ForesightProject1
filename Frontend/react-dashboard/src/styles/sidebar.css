@@ -1,0 +1,165 @@
+/* ==========================
+   SIDEBAR
+========================== */
+
+.sidebar{
+    width:210px;
+    min-height:100vh;
+    background:#111827;
+    border-right:1px solid rgba(255,255,255,.06);
+    display:flex;
+    flex-direction:column;
+    padding:22px 16px;
+}
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo{
+    margin-bottom:35px;
+}
+
+.logo h2{
+    color:#60A5FA;
+    font-size:30px;
+    font-weight:800;
+}
+
+.logo p{
+    color:#94A3B8;
+    font-size:14px;
+    margin-top:4px;
+}
+
+/* ==========================
+   MENU
+========================== */
+
+nav{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.menu-item{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:13px 15px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size:15px;
+    font-weight:500;
+    transition:all .3s ease;
+}
+
+.menu-item svg{
+    font-size:18px;
+}
+
+.menu-item:hover{
+    background:#2563EB;
+    color:white;
+    transform:translateX(6px);
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
+}
+
+.menu-item.active{
+    background:#2563EB;
+    color:white;
+}
+
+/* ==========================
+   INSIGHTS
+========================== */
+
+.insights-sidebar{
+    margin-top:35px;
+    background:#1E293B;
+    border-radius:16px;
+    padding:18px;
+}
+
+.insights-sidebar h3{
+    color:#60A5FA;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.insights-sidebar p{
+    color:#E5E7EB;
+    font-size:14px;
+    line-height:1.8;
+}
+
+/* ==========================
+   LOGOUT BUTTON
+========================== */
+
+.logout-btn{
+    margin-top:auto;
+    background:#EF4444;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    transition:.3s;
+}
+
+.logout-btn:hover{
+    background:#DC2626;
+    transform:translateY(-2px);
+    box-shadow:0 12px 20px rgba(239,68,68,.35);
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:900px){
+
+.sidebar{
+    width:80px;
+}
+
+.logo p{
+    display:none;
+}
+
+.logo h2{
+    font-size:22px;
+}
+
+.menu-item{
+    justify-content:center;
+    padding:14px;
+    font-size:0;
+}
+
+.menu-item svg{
+    font-size:20px;
+}
+
+.insights-sidebar{
+    display:none;
+}
+
+.logout-btn{
+    font-size:0;
+    padding:14px;
+}
+
+.logout-btn svg{
+    font-size:18px;
+}
+
+}

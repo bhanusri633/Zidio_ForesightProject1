@@ -1,0 +1,40 @@
+.summary-card{
+    background:#1E293B;
+    border-radius:18px;
+    padding:24px;
+    margin:20px 0;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.summary-card h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+.summary-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.summary-item{
+    background:#273549;
+    border-radius:14px;
+    padding:18px;
+    transition:.3s;
+}
+
+.summary-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(59,130,246,.25);
+}
+
+.summary-item h4{
+    color:#60A5FA;
+    margin-bottom:10px;
+}
+
+.summary-item p{
+    color:#CBD5E1;
+    line-height:1.5;
+}

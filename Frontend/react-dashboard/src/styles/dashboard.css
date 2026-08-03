@@ -1,0 +1,38 @@
+.dashboard{
+    display:flex;
+    min-height:100vh;
+    background:#0F172A;
+}
+
+.main-content{
+    flex:1;
+    padding:20px;
+    overflow-x:hidden;
+}
+
+.kpi-card:hover,
+.chart-card:hover,
+.page-card:hover,
+.orders-card:hover{
+    transform:translateY(-6px);
+    transition:.3s;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+@media(max-width:900px){
+
+.dashboard{
+    flex-direction:column;
+}
+
+.sidebar{
+    width:100%;
+    height:auto;
+}
+
+.main-content{
+    margin-left:0;
+    padding:15px;
+}
+
+}

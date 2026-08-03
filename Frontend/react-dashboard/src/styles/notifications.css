@@ -1,0 +1,71 @@
+.notification-card{
+    background:#1e293b;
+    margin-top:25px;
+    border-radius:18px;
+    padding:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.notification-card h3{
+    color:white;
+    margin-bottom:20px;
+    font-size:22px;
+    font-weight:600;
+}
+
+.notification-item{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:16px 0;
+    border-bottom:1px solid #2f3c52;
+    transition:.3s;
+}
+
+.notification-item:last-child{
+    border-bottom:none;
+}
+
+.notification-item:hover{
+    background:#273449;
+    border-radius:10px;
+    padding-left:10px;
+}
+
+.notify-dot{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    flex-shrink:0;
+}
+
+.green{
+    background:#22C55E;
+    box-shadow:0 0 8px #22C55E;
+}
+
+.blue{
+    background:#3B82F6;
+    box-shadow:0 0 8px #3B82F6;
+}
+
+.orange{
+    background:#F59E0B;
+    box-shadow:0 0 8px #F59E0B;
+}
+
+.notification-content{
+    display:flex;
+    flex-direction:column;
+}
+
+.notification-content h4{
+    color:white;
+    font-size:16px;
+    margin-bottom:5px;
+}
+
+.notification-content span{
+    color:#94a3b8;
+    font-size:13px;
+}

@@ -1,0 +1,148 @@
+.prediction-card {
+  background: #1e293b;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+.prediction-card h3 {
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.prediction-card input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #111827;
+  color: white;
+  font-size: 14px;
+}
+
+.prediction-card input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.prediction-card button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background: #3b82f6;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+.prediction-card button:hover {
+  background: #2563eb;
+}
+
+.prediction-result {
+  background: #111827;
+  margin-top: 20px;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+}
+
+.prediction-result h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.prediction-result span {
+  color: #94a3b8;
+}
+
+.prediction-result h2 {
+  color: #22c55e;
+  margin: 10px 0 20px;
+  font-size: 34px;
+}
+
+.metrics {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.metric-card {
+  flex: 1;
+  background: #273449;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+.metric-card h5 {
+  color: #60a5fa;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.metric-card p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ai-box {
+  margin-top: 18px;
+  background: #273449;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.ai-box h5 {
+  color: #60a5fa;
+  margin-bottom: 8px;
+}
+
+.ai-box p {
+  color: white;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.success {
+  color: #22c55e;
+}
+
+.warning {
+  color: #f59e0b;
+}
+
+.danger {
+  color: #ef4444;
+}
+
+@media (max-width: 768px) {
+  .metrics {
+    flex-direction: column;
+  }
+}
+
+.reset-btn{
+    width:100%;
+    margin-top:10px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#475569;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.reset-btn:hover{
+    background:#334155;
+}
