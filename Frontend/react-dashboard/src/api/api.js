@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:5000"
+  baseURL: "https://zidio-foresightproject1.onrender.com"
 });
 
 export const getDashboardData = () => API.get("/dashboard");
